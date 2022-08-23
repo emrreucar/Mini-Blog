@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Noto+Serif:ital@1&family=Open+Sans:wght@300&family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    width: 100%;
+}
+
+.container h1{
+    text-align: center;
+    font-weight: 600;
+    color: #ff004f;
+    position: relative;
+    top: 40px;
+
+}
+
+.col-md-6
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 70px;
+    background-color: #00fffb;
+    height: 50vh;
+}
+
+.col-md-7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 70px;
+    background-color: #00fffb;
+}
+
+.tdfixbaslik, .tdfixicerik{
+    font-size: 2.8rem;
+    color: #004d4b;
+}
+
+.tdfixbaslik{
+    position: relative;
+    top: -5px;
+}
+
+.tdfixicerik{
+    position: relative;
+    top: 70px;
+}
+
+.form-controlbaslik{
+    border-radius: 4px;
+    height: 30px;
+    width: 300px;
+    font-size: 2rem;
+}
+
+.form-controlicerik{
+    border-radius: 4px;
+    height: 200px;
+    width: 300px;
+    font-size: 2rem;
+}
+
+.btn-info{
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 14px 50px;
+    transition: 0.3s;
+}
